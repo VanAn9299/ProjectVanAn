@@ -1,0 +1,21 @@
+.WeekBox{
+    background: #fff0ec;
+    border-bottom: 2px solid #f1957b;
+}
+.eight-days{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+   
+}
+.eight-days > div {
+    background-color: #f1957b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0px 0px black;
+    color: white;
+    margin: 0px 20px 20px 0px;
+}

@@ -1,0 +1,25 @@
+.city{
+    height: 100%;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.cityCard{
+    color: rgb(56, 56, 56);
+    background: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+.cityCard span{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 2px 5px;
+    color: white;
+}
+.cityCard p{
+    margin-bottom: 10px;
+}
